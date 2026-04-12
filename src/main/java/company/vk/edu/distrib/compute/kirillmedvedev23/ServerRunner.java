@@ -7,8 +7,11 @@ import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 
-public class ServerRunner {
+public final class ServerRunner {
     private static final Logger log = LoggerFactory.getLogger(ServerRunner.class);
+
+    private ServerRunner() {
+    }
 
     public static void main(String[] args) throws IOException {
         int port = 8080;
