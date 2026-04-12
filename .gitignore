@@ -25,6 +25,13 @@ hs_err_pid*
 .gradle
 build/
 
+# Storage directories
+data/
+data_*/
+*-storage/
+storage/
+
+
 # Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
 !gradle-wrapper.jar
 
